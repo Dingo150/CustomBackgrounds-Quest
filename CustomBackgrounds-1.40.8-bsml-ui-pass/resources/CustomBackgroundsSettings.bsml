@@ -1,0 +1,18 @@
+<vertical spacing="2">
+  <text text="Custom Backgrounds" align="Center" font-size="5" />
+  <text text="Background" font-size="4" />
+  <toggle-setting text="Enable Custom Backgrounds" value="enabled" apply-on-change="true" />
+  <text text="Select an image from the CustomBackgrounds folder:" />
+  <button text="Refresh image list" click-event="RefreshBackgroundList" />
+  <list id="backgroundList" data="backgroundFiles" />
+
+  <text text="Background settings" font-size="4" />
+  <increment-setting text="Rotation Offset" value="rotationOffset" min-value="0" max-value="359" increment="15" />
+  <increment-setting text="Target Resolution" value="imageWidth" min-value="3840" max-value="11520" increment="3840" />
+
+  <text text="Environment" font-size="4" />
+  <toggle-setting text="Hide Environment" value="hideEnvironment" apply-on-change="true" />
+  <toggle-setting text="Hide Rings" value="hideRings" apply-on-change="true" />
+  <toggle-setting text="Hide Lights" value="hideLasers" apply-on-change="true" />
+  <text text="Images: PNG, JPG and JPEG. Place them in ModData/com.beatgames.beatsaber/Mods/CustomBackgrounds." font-size="3" />
+</vertical>

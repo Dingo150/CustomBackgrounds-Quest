@@ -1,0 +1,1 @@
+Scotland2 headers supplied by the user are included in the companion source package under reference-headers/scotland2 and reference-headers/paper2_scotland2. They are reference material, not copied into the QPM dependency tree; QPM remains responsible for supplying the actual build include paths.

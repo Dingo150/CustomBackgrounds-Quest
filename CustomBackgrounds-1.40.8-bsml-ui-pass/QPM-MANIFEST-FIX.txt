@@ -1,0 +1,1 @@
+Added qpm.json package manifest required by QPM CLI. Keep qpm.json beside qpm.shared.json.
